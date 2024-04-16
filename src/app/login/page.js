@@ -6,11 +6,11 @@ const Page = () => {
   const routr = useRouter()
   return (
     <div>
-      <h1>Login page</h1>
-      <Link href="/">go to home page</Link>
-      <button onClick={()=>routr.push("/")}>home page</button>
+      <h1 className='heading'>Login page</h1>
+      {/* <Link href="/">go to home page</Link> */}
+      {/* <button onClick={()=>routr.push("/")}>home page</button>
       <button onClick={()=>routr.push("/login/loginstudent")}>Go to student login page</button>
-      <button onClick={()=>routr.push("/login/loginTeacher")}>Go to teacher login page</button>
+      <button onClick={()=>routr.push("/login/loginTeacher")}>Go to teacher login page</button> */}
     </div>
   )
 } 

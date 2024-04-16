@@ -15,7 +15,9 @@ export default function Home() {
      
       <h1>Hi {name}</h1>
       <Link href="/login">Go to login </Link>
+      <br/>
       <Link href="/about">Go to about </Link>
+      <br/>
       {/* <button onClick={()=>apple("hamza")}>click me</button> */}
       <button onClick={()=>routr.push("/login")}>go to login page</button>
     </main>

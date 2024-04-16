@@ -6,9 +6,9 @@ const Page = () => {
   const routr = useRouter()
   return (
     <div>
-      <h1>student Login page</h1>
+      <h1 className='heading'>student Login page</h1>
     
-      <button onClick={()=>routr.push("/login")}>home page</button>
+      {/* <button onClick={()=>routr.push("/login")}>home page</button> */}
      
     </div>
   )
