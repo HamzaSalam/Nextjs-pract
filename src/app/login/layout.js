@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 
 const Layout = ({children}) => {
   const path = usePathname()
-  console.log(path.charAt(8))
+  
   return (
     <div className='main'>
      {

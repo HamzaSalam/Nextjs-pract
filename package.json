@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "eslint-plugin-react-hooks": "^5.1.0-canary-8afa144bd-20240416",
+    "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
